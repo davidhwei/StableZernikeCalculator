@@ -28,6 +28,8 @@
 
 function [out] = ZernikeRmn(m, n, rho)
 
+format long
+
 if (m > n || mod(n-m, 2) == 1)
     out = zeros(1, length(rho));
 else

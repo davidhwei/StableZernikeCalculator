@@ -3,6 +3,8 @@
 
 function y = ChebyshevU(n, x)
 
+format long
+
 AlmostZero = 1e-7;
 
 phi = acos(x); % phi is in [0, pi]
